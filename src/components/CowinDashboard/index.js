@@ -54,7 +54,7 @@ const CowinDashboard = props => {
         </li>
 
         <li className="common-list">
-          <h1 className="heading-sub">Vaccination by gende</h1>
+          <h1 className="heading-sub">Vaccination by gender</h1>
           <VaccinationByGender>{data.byGender}</VaccinationByGender>
         </li>
         <li className="common-list">

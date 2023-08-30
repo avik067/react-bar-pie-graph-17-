@@ -23,9 +23,9 @@ const VaccinationByGender = ({children}) => {
         </Pie>
         <Legend
           iconType="circle"
-          layout="vertical"
-          verticalAlign="middle"
-          align="right"
+          layout="horizontal"
+          verticalAlign="bottom"
+          align="center"
         />
       </PieChart>
     </ResponsiveContainer>

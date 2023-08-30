@@ -11,7 +11,13 @@ const CowinDashboard = props => {
   const [data, setData] = useState({byCoverage: [], byGender: [], byAge: []})
 
   const getData = async () => {
-    const dataCame = await fetch('https://apis.ccbp.in/covid-vaccination-data')
+    const options = {
+      method: 'GET',
+    }
+    const dataCame = await fetch(
+      'https://apis.ccbp.in/covid-vaccination-data',
+      options,
+    )
     const jsonData = await dataCame.json()
     console.log(jsonData)
 

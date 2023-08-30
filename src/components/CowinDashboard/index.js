@@ -48,13 +48,13 @@ const CowinDashboard = props => {
         <li>
           <h1 className="second-head">coWin Vaccination in India</h1>
         </li>
-        <li className="">
+        <li className="common-list">
           <VaccinationCoverage>{data.byCoverage}</VaccinationCoverage>
         </li>
-        <li>
+        <li className="common-list">
           <VaccinationByGender>{data.byGender}</VaccinationByGender>
         </li>
-        <li>
+        <li className="common-list">
           <VaccinationByAge>{data.byAge}</VaccinationByAge>
         </li>
       </ul>

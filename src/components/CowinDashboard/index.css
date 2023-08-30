@@ -1,0 +1,22 @@
+.main-back {
+  background-color: #161625;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.web-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+.heading-first {
+  color: #2cc6c6;
+  font-family: Roboto;
+}
+.second-head {
+  color: #ffffff;
+  font-family: Roboto;
+}
+.section {
+  background-color: #1c1c2b;
+  padding: 10px;
+}

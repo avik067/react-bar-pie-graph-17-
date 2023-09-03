@@ -20,7 +20,7 @@ const VaccinationCoverage = ({children}) => {
   }
 
   return (
-    <ResponsiveContainer width="100%" height={500}>
+    <ResponsiveContainer width={1000} height={300}>
       <BarChart
         data={children}
         margin={{

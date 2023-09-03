@@ -20,3 +20,10 @@
   background-color: #1c1c2b;
   padding: 10px;
 }
+.failure-img {
+  height: 400px;
+  width: 500px;
+}
+.falure-head {
+  color: #ffffff;
+}
